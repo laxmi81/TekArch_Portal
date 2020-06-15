@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sanity_Suite">
+  <test name="login_Test">
+    <classes>
+      <class name="Login_Test.Login_to_portal"/>
+      </classes>
+  </test> <!-- Test -->
+  
+  <test name="calculator_Test">
+    <classes>
+  <class name="Login_Test.calculator_test"/>
+  </classes>
+  </test> <!-- Test -->
+ 
+ <test name="toolTip_Test">
+    <classes>
+  <class name="Login_Test.toolTip_test"/>
+  </classes>
+  </test> <!-- Test --> 
+  
+  <test name="logout_Test">
+    <classes>
+  <class name="Login_Test.page_logout"/>
+  </classes>
+  </test> <!-- Test --> 
+</suite> <!-- Sanity_Suite -->

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="sanity_Suite.xml">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Login_Test.page_logout"/>
+      <class name="Login_Test.Login_to_portal"/>
+      <class name="Login_Test.toolTip_test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- sanity_Suite.xml -->
